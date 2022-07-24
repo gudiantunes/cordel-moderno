@@ -22,6 +22,7 @@ header {
     color: white;
     text-align: center;
     padding: 50px;
+    box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.295);
 }
 
 header > h1 {
@@ -55,17 +56,17 @@ main p {
 }
 
 section.text {
-    margin-top: 40px;
     padding: 40px;
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.336);
 }
 
 section.image {
-    margin-top: 40px;
     padding: 40px;
     background-color: lightgrey;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: inset 2px 2px 10px 3px rgba(0, 0, 0, 0.548);
 }
 
 section.image > p {
@@ -88,4 +89,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    box-shadow: 0px -2px 7px 3px rgba(0, 0, 0, 0.164);
 }
